@@ -14,7 +14,7 @@ const GameOverScreen = ({ rounds, userNumber, onRestart }) => {
       </View>
       <View style={styles.resultContainer}>
         <BodyText style={styles.resultText}>
-          <Text style={styles.highlight}>{rounds}</Text> were required in order
+          <Text style={styles.highlight}>{rounds}</Text> rounds were required in order
           to guess the number <Text style={styles.highlight}>{userNumber}</Text>
         </BodyText>
       </View>
